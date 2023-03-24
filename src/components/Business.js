@@ -3,7 +3,7 @@ import '../styles/Business.css';
 function Business() {
     
 
-    return <div>
+    return <div className="Business">
             <h1>Business</h1>
     </div>
 }

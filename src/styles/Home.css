@@ -1,4 +1,4 @@
-.App {
+.Home {
     background-color: rgb(87, 87, 87);
     color: rgb(80, 223, 248);
     display: flex;
@@ -19,7 +19,7 @@
     border: solid rgb(80, 223, 248) 5px;
   }
   
-  .project {
+  .Project {
     height: 200px;
     width: 200px;
     border: solid rgb(80, 223, 248) 3px;
@@ -29,7 +29,7 @@
     align-items: center;
   }
   
-  .project:hover {
+  .Project:hover {
     border: solid lightgreen 3px;
     color: lightgreen;
   }
