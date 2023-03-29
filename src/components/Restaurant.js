@@ -8,7 +8,7 @@ function Restaurant() {
     return <div className="Restaurant">
             <Nav />
             <div> <h1>Picture Wheel</h1> </div>
-            <div> <h1>Welcome</h1> </div>
+            <div> <h1>Welcome to the Margarita Shop</h1> </div>
             <Footer />
     </div>
 }
