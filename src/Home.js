@@ -1,4 +1,4 @@
-import '../styles/Home.css';
+import './Home.css';
 import Project from './Project';
 import Nameplate from './Nameplate';
 

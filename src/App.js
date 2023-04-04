@@ -1,8 +1,8 @@
-import '../styles/App.css';
+import './App.css';
 import Home from './Home';
-import Restaurant from './Restaurant';
-import Business from './Business';
-import Blog from './Blog';
+import Restaurant from './Restaurant/Restaurant';
+import Business from './Business/Business';
+import Blog from './Blog/Blog';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {

@@ -1,4 +1,4 @@
-import '../styles/Business.css';
+import './styles/Business.css';
 
 function Business() {
     
