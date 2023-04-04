@@ -1,14 +1,16 @@
 .Nav {
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.5);
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 10px;
-    height: 110px;
+    height: 90px;
+    width: 100vw;
+    position: fixed;
 }
 
 #logo {
-    width: 220px;
+    width: 200px;
     height: auto;
 }
 

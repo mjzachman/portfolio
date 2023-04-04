@@ -34,3 +34,8 @@
     gap: 100px;
 
 }
+
+.links>p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
