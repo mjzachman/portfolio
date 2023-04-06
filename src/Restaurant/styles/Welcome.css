@@ -1,0 +1,35 @@
+
+.Welcome {
+    background-color: rgb(241, 223, 163);
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: orangered;
+}
+
+#welcome-header {
+    font-size: 3rem;
+}
+
+.margarita{
+    width: 50px; 
+    height: auto;
+    position: absolute;
+}
+
+#yellow {
+    top: 550px;
+    left: 50px;
+}
+
+#red {
+    top: 650px;
+    left: 50px;
+}
+
+#green {
+    top: 800px;
+    left: 50px;
+}

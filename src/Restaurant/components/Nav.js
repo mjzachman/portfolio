@@ -7,10 +7,10 @@ function Nav() {
     return <div className="Nav">
             <img id="logo" src={logo} alt = "logo.png"/>
             <ul> 
-                <li>Home</li>
-                <li>About</li>
-                <li>Menu</li>
-                <li>Contact Us</li>
+                <a href="/restaurant"><li>Home</li></a>
+                <a href="/restaurant/about"><li>About</li></a>
+                <a href="/restaurant/menu"><li>Menu</li></a>
+                <a href="/restaurant/contact"><li>Contact Us</li></a>
             </ul> 
     </div>
 }

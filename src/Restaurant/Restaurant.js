@@ -1,8 +1,9 @@
 import './styles/Restaurant.css';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
-import Contact from './components/Contact';
+import Welcome from './components/Welcome';
 import Picture from './images/nuevo-front.jpg';
+
 
 function Restaurant() {
     
@@ -10,7 +11,7 @@ function Restaurant() {
     return <div className="Restaurant">
             <Nav />
             <img id="home" src={Picture} alt="restaurant" />
-            <Contact />
+            <Welcome />
             <Footer />
     </div>
 }

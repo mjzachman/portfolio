@@ -23,8 +23,8 @@ function Footer() {
             </div>
 
             <div className='links'>
-                <p>About Us</p>
-                <p>Contact Us</p>
+                <a href="/restaurant/about"><p>About Us</p></a>
+                <a href="/restaurant/contact"><p>Contact Us</p></a>
             </div>
             
     </div>

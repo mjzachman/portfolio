@@ -1,0 +1,68 @@
+#welcome-header{
+    font-size: 3rem;
+ }
+ 
+
+#welcome-div{
+    background-color: rgb(241, 223, 163);
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: orangered;
+}
+
+ #welcome-content{
+     height: 350px;
+     width: 800px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 1.5rem;
+ }
+ 
+ #welcome-map{
+     height: 300px;
+     width: 400px;
+     border: solid black 2px;
+ }
+ 
+ #welcome-info{
+     height: 300px;
+     width: 400px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 15px;
+     text-align: center;
+ }
+ 
+ #welcome-info>p {
+     margin: 0;
+ }
+ 
+ .welcome-hr{
+     border-top: solid gray 2px;
+     width: 200px;
+ }
+ 
+ #socials{
+     height: 40px;
+     width: 300px;
+     display: flex;
+     font-size: 1rem;
+     justify-content: space-evenly;
+ }
+ 
+ #socials>img {
+     width: 50px;
+     height: auto;
+     border: solid gray 2px;
+     border-radius: 50%;
+ }
+ 
+ iframe{
+     border: 0;
+ }
