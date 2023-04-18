@@ -1,9 +1,9 @@
-#welcome-header{
+#contact-header{
     font-size: 3rem;
  }
  
 
-#welcome-div{
+#contact-div{
     background-color: rgb(241, 223, 163);
     height: 500px;
     display: flex;
@@ -13,7 +13,7 @@
     color: orangered;
 }
 
- #welcome-content{
+ #contact-content{
      height: 350px;
      width: 800px;
      display: flex;
@@ -22,13 +22,13 @@
      font-size: 1.5rem;
  }
  
- #welcome-map{
+ #contact-map{
      height: 300px;
      width: 400px;
      border: solid black 2px;
  }
  
- #welcome-info{
+ #contact-info{
      height: 300px;
      width: 400px;
      display: flex;
@@ -39,11 +39,11 @@
      text-align: center;
  }
  
- #welcome-info>p {
+ #contact-info>p {
      margin: 0;
  }
  
- .welcome-hr{
+ .contact-hr{
      border-top: solid gray 2px;
      width: 200px;
  }

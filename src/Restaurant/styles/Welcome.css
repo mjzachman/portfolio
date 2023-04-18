@@ -7,29 +7,43 @@
     justify-content: center;
     align-items: center;
     color: orangered;
+    
 }
 
 #welcome-header {
     font-size: 3rem;
 }
 
+#welcome-content{
+    height: 350px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: relative;
+}
+
 .margarita{
-    width: 50px; 
+    width: 80px; 
     height: auto;
     position: absolute;
 }
 
 #yellow {
-    top: 550px;
-    left: 50px;
+    top: -50px;
+    left: -150px;
+    transform: rotate(15deg);
 }
 
 #red {
-    top: 650px;
-    left: 50px;
+    top: 100px;
+    left: -150px;
+    transform: rotate(-15deg);
 }
 
 #green {
-    top: 800px;
-    left: 50px;
+    top: 250px;
+    left: -150px;
+    transform: rotate(15deg);
 }
